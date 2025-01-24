@@ -42,4 +42,4 @@ EXPOSE 5173
 
 # Set the DATABASE_URL environment variable for the runtime
 # Start the SSR Svelte app (with vite in preview mode)
-CMD ["npm","run", "serve","--", "--host", "0.0.0.0"]
+CMD ["npm","run", "preview","--", "--host", "0.0.0.0"]
