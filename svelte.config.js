@@ -6,6 +6,9 @@ const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
+	preview: {
+		allowedHosts: ['https://gifts.rummage.cc']
+	},
 
 	kit: {
 		// Use the Node.js adapter to deploy your app as a server-rendered app
